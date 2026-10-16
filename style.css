@@ -1,1 +1,23 @@
 
+/* CLEMENTHOUGHTS — Global theme */
+
+:root {
+  --paper: #F8F1E5;
+  --orange: #E8A05D;
+  --sage: #DDE7D8;
+  --ink: #493B31;
+}
+
+html {
+  min-height: 100%;
+  background-color: var(--paper);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
